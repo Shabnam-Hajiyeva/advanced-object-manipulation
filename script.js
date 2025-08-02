@@ -21,3 +21,13 @@ console.log("Student Parsed:", studentParsed);
 
 console.log("Original student object:" , student);
 console.log("New object from Json:", studentParsed);
+
+//Part 3
+let {name, courses}=student;
+console.log("Student name: ", name);
+console.log("Courses: ", courses);
+
+let scores=[85, 92, 78, 90];
+let [first, second]=scores;
+console.log("First score is: ", first);
+console.log("Second score is :" , second);
