@@ -54,8 +54,29 @@ student = {
   // Method to add a new course
   addCourse: function(newCourse) {
     this.courses.push(newCourse);
+  },
+
+totalCourses: function() {
+    return this.courses.length;
   }
 };
 
+
 student.addCourse("React");
-console.log(student.courses);
+console.log("Courses:", student.courses);                
+
+console.log("Total number of courses:", student.totalCourses());
+
+//Bonus Task
+lscores = [85, 92, 78, 90];
+
+let total = scores.reduce(function(sum, current) {
+  return sum + current;
+}, 0);
+
+
+let average = total / scores.length;
+
+console.log("Average score:", average);
+
+
