@@ -39,3 +39,7 @@ let cloneStudent={
 };
 
 console.log("Cloned student with graduation year: ", cloneStudent);
+
+let newCourses=["React", "Java", "Python"];
+let mergeCourses=[...student.courses, ...newCourses];
+console.log("Merged courses: ", mergeCourses);
