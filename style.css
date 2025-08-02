@@ -1,0 +1,12 @@
+body{
+    color: wheat;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: beige;
+}
+
+h1{
+    background-color: rgb(239, 176, 99);
+    text-align: center;
+    color: brown;
+}
