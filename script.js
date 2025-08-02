@@ -13,5 +13,11 @@ console.log("Age:", student.age);
 console.log(student.displayInfo());
 
 //Part 2
-let jsonString=JSON.stringify(student);
-console.log(jsonString);
+let studentJson=JSON.stringify(student);
+console.log("JSON String:", studentJson);
+
+let studentParsed=JSON.parse(studentJson);
+console.log("Student Parsed:", studentParsed);
+
+console.log("Original student object:" , student);
+console.log("New object from Json:", studentParsed);
