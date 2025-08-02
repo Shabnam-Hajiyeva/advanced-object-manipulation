@@ -1,3 +1,4 @@
+//Part 1
 let student={
     name: "Mike",
     age: 20,
@@ -10,3 +11,7 @@ let student={
 console.log("Name:", student.name);
 console.log("Age:", student.age);
 console.log(student.displayInfo());
+
+//Part 2
+let jsonString=JSON.stringify(student);
+console.log(jsonString);
