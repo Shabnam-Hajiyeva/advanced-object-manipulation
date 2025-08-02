@@ -43,3 +43,19 @@ console.log("Cloned student with graduation year: ", cloneStudent);
 let newCourses=["React", "Java", "Python"];
 let mergeCourses=[...student.courses, ...newCourses];
 console.log("Merged courses: ", mergeCourses);
+
+//Part 5
+student = {
+  name: "Mike",
+  age: 20,
+  enrolled: true,
+  courses: ["JavaScript", "Web Programming", "Database"],
+
+  // Method to add a new course
+  addCourse: function(newCourse) {
+    this.courses.push(newCourse);
+  }
+};
+
+student.addCourse("React");
+console.log(student.courses);
