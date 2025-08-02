@@ -31,3 +31,11 @@ let scores=[85, 92, 78, 90];
 let [first, second]=scores;
 console.log("First score is: ", first);
 console.log("Second score is :" , second);
+
+//Part 4
+let cloneStudent={
+    ...student,
+    graduationYear: 2027
+};
+
+console.log("Cloned student with graduation year: ", cloneStudent);
